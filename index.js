@@ -25,7 +25,7 @@ const octokit = new Octokit({
   auth: `token ${githubToken}`,
 });
 
-const main = async () => {
+async function main () {
   const timeline = await twitter.get('statuses/user_timeline', {
     screen_name: twitterHandle, 
     count: 1,
@@ -35,9 +35,9 @@ const main = async () => {
 
   const tweet = timeline[0];
   await updateGist(tweet);
-};
+}
 
-const updateGist = async (tweet) => {
+async function updateGist (tweet) => {
   const wrap = wordwrap(46);
 
   let gist;
