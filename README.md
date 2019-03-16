@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="400" src="https://user-images.githubusercontent.com/4658208/54449507-a5595280-4724-11e9-95ce-ce0817dc7503.png">
+  <img width="400" src="https://user-images.githubusercontent.com/4658208/54479268-752bb580-47f1-11e9-9d01-edd8b574aa92.png">
   <h3 align="center">bird-box</h3>
   <p align="center">Update a pinned gist to contain the latest tweets of a user</p>
 </p>
