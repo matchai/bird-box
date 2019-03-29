@@ -6,6 +6,8 @@
 
 ---
 
+> 📌✨ For more projects like this one, check out: https://github.com/matchai/awesome-pinned-gists
+
 ## Setup
 
 ### Prep work
