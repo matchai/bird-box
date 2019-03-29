@@ -11,8 +11,8 @@ commands:
       - checkout
       - restore_cache:
           keys:
-          - dependency-cache-{{ checksum "package.json" }}
-          - dependency-cache-
+            - dependency-cache-{{ checksum "package.json" }}
+            - dependency-cache-
       - run: npm install
       - save_cache:
           key: dependency-cache-{{ checksum "package.json" }}
@@ -36,8 +36,8 @@ workflows:
   poll:
     triggers:
       - schedule:
-          # Run once every 5 minutes
-          cron: "0,5,10,15,20,25,30,35,40,45,50,55 * * * *"
+          # Run once every 15 minutes
+          cron: "0,15,30,45 * * * *"
           filters:
             branches:
               only:
