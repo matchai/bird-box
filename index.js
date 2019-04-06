@@ -5,13 +5,13 @@ const wordwrap = require("wordwrap");
 const { formatDistanceStrict } = require("date-fns");
 
 const {
-  TWITTER_USER: twitterHandle,
   GIST_ID: gistId,
+  TWITTER_USER: twitterHandle,
   TWITTER_CONSUMER_KEY: consumerKey,
   TWITTER_CONSUMER_SECRET: consumerSecret,
   TWITTER_ACCESS_TOKEN_KEY: accessTokenKey,
   TWITTER_ACCESS_TOKEN_SECRET: accessTokenSecret,
-  GITHUB_TOKEN: githubToken
+  GITHUB_ACCESS_TOKEN: githubToken
 } = process.env;
 
 const twitter = new Twitter({
