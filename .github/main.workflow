@@ -1,6 +1,6 @@
-workflow "Update tweet gist" {
+workflow "Update gist with latest tweet" {
   resolves = ["update-gist"]
-  on = "schedule(*/2 * * * *)"
+  on = "schedule(*/10 * * * *)"
 }
 
 action "update-gist" {
