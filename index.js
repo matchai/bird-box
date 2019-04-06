@@ -11,7 +11,7 @@ const {
   TWITTER_CONSUMER_SECRET: consumerSecret,
   TWITTER_ACCESS_TOKEN_KEY: accessTokenKey,
   TWITTER_ACCESS_TOKEN_SECRET: accessTokenSecret,
-  GITHUB_ACCESS_TOKEN: githubToken
+  GH_TOKEN: githubToken
 } = process.env;
 
 const twitter = new Twitter({

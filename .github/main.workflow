@@ -10,7 +10,7 @@ action "update-gist" {
     "GIST_ID" = "6d5f84419863089a167387da62dd7081"
   }
   secrets = [
-    "GITHUB_ACCESS_TOKEN",
+    "GH_TOKEN",
     "TWITTER_CONSUMER_KEY",
     "TWITTER_CONSUMER_SECRET",
     "TWITTER_ACCESS_TOKEN_KEY",

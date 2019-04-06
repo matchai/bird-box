@@ -27,8 +27,7 @@
 
 1. Go to the repo **Settings > Secrets**
 1. Add the following environment variables:
-   - **GITHUB_ACCESS_TOKEN:** The GitHub access token generated above.
-   - **TWITTER_USER:** The user handle of the twitter account.
+   - **GH_TOKEN:** The GitHub access token generated above.
    - **TWITTER_CONSUMER_KEY:** Your Twitter consumer API key.
    - **TWITTER_CONSUMER_SECRET:** Your Twitter consumer secret.
    - **TWITTER_ACCESS_TOKEN_KEY:** Your Twitter access token key.
