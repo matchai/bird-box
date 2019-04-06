@@ -20,10 +20,10 @@
 ### Project setup
 
 1. Fork this repo
-1. Edit the environment variables in `.github/main.workflow`:
+1. Edit the [environment variables](https://github.com/matchai/bird-box/blob/master/.github/main.workflow?short_path=5225be4#L9-L10) in `.github/main.workflow`:
 
    - **TWITTER_USER:** The user handle of the twitter account.
-   - **GIST_ID:** The ID portion from your gist url `https://gist.github.com/matchai/`**`6d5f84419863089a167387da62dd7081`**.
+   - **GIST_ID:** The ID portion from your gist url: `https://gist.github.com/matchai/`**`6d5f84419863089a167387da62dd7081`**.
 
 1. Go to the repo **Settings > Secrets**
 1. Add the following environment variables:
