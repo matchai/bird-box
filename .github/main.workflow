@@ -1,19 +1,10 @@
-workflow "Update gist with latest tweet" {
+workflow "Update tweet gist" {
   resolves = ["update-gist"]
-  on = "schedule(*/1 * * * *)"
-}
-
-action "npm ci" {
-  uses = "docker://node:alpine"
-  runs = "npm"
-  args = "ci"
+  on = "schedule(*/2 * * * *)"
 }
 
 action "update-gist" {
-  needs = "npm ci"
-  uses = "docker://node:alpine"
-  runs = "node"
-  args = "index.js"
+  uses = "matchai/bird-box@master"
   env = {
     "TWITTER_USER" = "matchai"
     "GIST_ID" = "6d5f84419863089a167387da62dd7081"
