@@ -6,7 +6,7 @@
 
 ---
 
-> 📌✨ For more projects like this one, check out: https://github.com/matchai/awesome-pinned-gists
+> 📌✨ For more pinned-gist projects like this one, check out: https://github.com/matchai/awesome-pinned-gists
 
 ## Setup
 
@@ -20,7 +20,7 @@
 ### Project setup
 
 1. Fork this repo
-1. Edit the [environment variables](https://github.com/matchai/bird-box/blob/master/.github/main.workflow?short_path=5225be4#L9-L10) in `.github/main.workflow`:
+1. Edit the [environment variables](https://github.com/matchai/bird-box/blob/bc2a126cb61ee663a23d8c8caa43937aa55e95e6/.github/main.workflow?short_path=1d1131c#L9-L10) in `.github/main.workflow`:
 
    - **TWITTER_USER:** The user handle of the twitter account.
    - **GIST_ID:** The ID portion from your gist url: `https://gist.github.com/matchai/`**`6d5f84419863089a167387da62dd7081`**.
