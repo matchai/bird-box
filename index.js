@@ -38,7 +38,7 @@ async function main() {
 }
 
 async function updateGist(tweet) {
-  const wrap = wordwrap(63);
+  const wrap = wordwrap(62);
 
   let gist;
   try {
