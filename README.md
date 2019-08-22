@@ -20,7 +20,7 @@
 ### Project setup
 
 1. Fork this repo
-1. Edit the [environment variables](https://github.com/matchai/bird-box/blob/bc2a126cb61ee663a23d8c8caa43937aa55e95e6/.github/main.workflow?short_path=1d1131c#L9-L10) in `.github/main.workflow`:
+1. Edit the [environment variables](https://github.com/matchai/bird-box/blob/bcc05c5376710b231c9a81c102df6e51efcc6fc7/.github/workflows/schedule.yml) in `.github/workflows/schedule.yml`:
 
    - **TWITTER_USER:** The user handle of the twitter account.
    - **GIST_ID:** The ID portion from your gist url: `https://gist.github.com/matchai/`**`6d5f84419863089a167387da62dd7081`**.
