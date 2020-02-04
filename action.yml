@@ -1,0 +1,9 @@
+name: bird-box
+author: Matan Kushner <hello@matchai.dev>
+description: Update a pinned gist to contain the latest tweets of a user
+run:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'clipboard'
+  color: 'blue'
