@@ -1,7 +1,7 @@
 name: bird-box
 author: Matan Kushner <hello@matchai.dev>
 description: Update a pinned gist to contain the latest tweets of a user
-run:
+runs:
   using: 'docker'
   image: 'Dockerfile'
 branding:
