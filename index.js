@@ -1,7 +1,7 @@
 require("dotenv").config();
 const Twitter = require("twitter");
 const Octokit = require("@octokit/rest");
-const wordwrap = require("wordwrap");
+const wrapAnsi = require("wrap-ansi");
 const { formatDistanceStrict } = require("date-fns");
 
 const {
@@ -38,8 +38,6 @@ async function main() {
 }
 
 async function updateGist(tweet) {
-  const wrap = wordwrap(62);
-
   let gist;
   try {
     gist = await octokit.gists.get({ gist_id: gistId });
@@ -59,7 +57,7 @@ async function updateGist(tweet) {
           filename: `@${twitterHandle} - ${timeAgo} ago | ❤ ${
             tweet.favorite_count
           } | 🔁 ${tweet.retweet_count}`,
-          content: wrap(tweet.text)
+          content: wrapAnsi(tweet.text, 62, { hard: true })
         }
       }
     });
