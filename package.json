@@ -1,8 +1,8 @@
 {
-  "name": "bird-box",
+  "name": "exchange-rate",
   "version": "0.0.1",
-  "description": "🐦💬 Update a gist to contain your latest tweets",
-  "author": "Matan Kushner <hello@matchai.me>",
+  "description": "🐦💬 Update a gist to contain your latest exchange rate",
+  "author": "CHAI YO MIN",
   "license": "ISC",
   "dependencies": {
     "@octokit/rest": "^16.18.1",

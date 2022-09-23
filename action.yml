@@ -1,6 +1,6 @@
-name: bird-box
-author: Matan Kushner <hello@matchai.dev>
-description: Update a pinned gist to contain the latest tweets of a user
+name: exchange-rate
+author: CHAI YO MIN
+description: Update a pinned gist to contain the latest exchange rate of a user
 runs:
   using: 'docker'
   image: 'Dockerfile'

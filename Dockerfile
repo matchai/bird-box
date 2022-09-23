@@ -1,7 +1,7 @@
 FROM node:lts-alpine
 
 # Labels for GitHub to read your action
-LABEL "com.github.actions.name"="bird-box"
+LABEL "com.github.actions.name"="exchange-rate"
 LABEL "com.github.actions.description"="Update a pinned gist to contain the latest tweets of a user"
 # Here are all of the available icons: https://feathericons.com/
 LABEL "com.github.actions.icon"="clipboard"
