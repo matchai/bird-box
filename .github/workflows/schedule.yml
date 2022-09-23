@@ -1,4 +1,4 @@
-name: Update gist with latest tweet
+name: Update gist with latest exchange rate
 on:
   schedule:
     - cron: '*/10 * * * *'

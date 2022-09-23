@@ -8,7 +8,6 @@
     "@octokit/rest": "^16.18.1",
     "date-fns": "^2.0.0-alpha.27",
     "dotenv": "^7.0.0",
-    "twitter": "^1.7.1",
     "wrap-ansi": "^7.0.0"
   },
   "devDependencies": {
